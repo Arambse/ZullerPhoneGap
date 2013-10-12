@@ -1,634 +1,0 @@
-THelloCordova
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist
-cPhaseScriptExecution "Copy www directory" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
-cCpResource HelloCordova/config.xml build/HelloCordova.app/config.xml
-cCpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png
-cCpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png
-cCpResource HelloCordova/Resources/icons/icon@2x.png build/HelloCordova.app/icon@2x.png
-cCpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle
-cCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings
-cCompileXIB /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib
-cCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings
-cCpResource HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png build/HelloCordova.app/Default-Landscape@2x~ipad.png
-cCpResource HelloCordova/Resources/splash/Default-Landscape~ipad.png build/HelloCordova.app/Default-Landscape~ipad.png
-cCpResource HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png build/HelloCordova.app/Default-Portrait@2x~ipad.png
-cCpResource HelloCordova/Resources/splash/Default-Portrait~ipad.png build/HelloCordova.app/Default-Portrait~ipad.png
-cCpResource HelloCordova/Resources/splash/Default@2x~iphone.png build/HelloCordova.app/Default@2x~iphone.png
-cCpResource HelloCordova/Resources/splash/Default~iphone.png build/HelloCordova.app/Default~iphone.png
-cCpResource HelloCordova/Resources/splash/Default-568h@2x~iphone.png build/HelloCordova.app/Default-568h@2x~iphone.png
-cCpResource HelloCordova/Resources/icons/icon-72@2x.png build/HelloCordova.app/icon-72@2x.png
-cProcessPCH /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova normal i386
-cGenerateDSYMFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova
-cTouch /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c0000000050EDEAFB0000000000000110
-t1357769467
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c0000000051AD024B00000000001EB540
-t1370292811
-s2012480
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c0000000051AD024500000000000C1030
-t1370292805
-s790576
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c0000000051AD02480000000000193640
-t1370292808
-s1652288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
-c0000000051AD024700000000000226E0
-t1370292807
-s141024
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051AD024C00000000003D4DF0
-t1370292812
-s4017648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000051AD024D0000000000215DB0
-t1370292813
-s2186672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000051AD024E0000000000228FE0
-t1370292814
-s2265056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000051AD0250000000000009C590
-t1370292816
-s640400
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c0000000051AD02510000000000085620
-t1370292817
-s546336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000051AD025C00000000003DDFA0
-t1370292828
-s4054944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-c0000000051AD026800000000002CFBE0
-t1370292840
-s2948064
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c0000000051AD026D00000000002DBA50
-t1370292845
-s2996816
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c0000000051AD027000000000000BCC20
-t1370292848
-s773152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c0000000051AD02700000000000030EB0
-t1370292848
-s200368
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000051AD027400000000001D5750
-t1370292852
-s1922896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c0000000051AD0276000000000006CC50
-t1370292854
-s445520
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000051AD02860000000000AB6230
-t1370292870
-s11231792
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m
-c000000005259436500000000000013DE
-t1381581669
-s5086
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m
-c0000000052594365000000000000126D
-t1381581669
-s4717
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib
-c00000000525943650000000000001759
-t1381581669
-s5977
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/HelloCordova-Prefix.pch
-c000000005259436500000000000003C9
-t1381581669
-s969
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/Capture.bundle
-c0000000052594365000000000000030E
-t1381581669
-s782
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings
-c000000005259436500000000000004BF
-t1381581669
-s1215
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings
-c000000005259436500000000000004AA
-t1381581669
-s1194
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/es.lproj/Localizable.strings
-c000000005259436500000000000004B7
-t1381581669
-s1207
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon-72.png
-c00000000525943650000000000001350
-t1381581669
-s4944
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png
-c00000000525943650000000000002DBA
-t1381581669
-s11706
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon.png
-c00000000525943650000000000000F3E
-t1381581669
-s3902
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon@2x.png
-c00000000525943650000000000001EBD
-t1381581669
-s7869
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/se.lproj/Localizable.strings
-c000000005259436500000000000004AB
-t1381581669
-s1195
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png
-c000000005259436500000000000085B1
-t1381581669
-s34225
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000525943650000000000012DF4
-t1381581669
-s77300
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png
-c00000000525943650000000000008877
-t1381581669
-s34935
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000525943650000000000012B02
-t1381581669
-s76546
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png
-c000000005259436500000000000085E6
-t1381581669
-s34278
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png
-c00000000525943650000000000007323
-t1381581669
-s29475
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png
-c0000000052594365000000000000289A
-t1381581669
-s10394
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/config.xml
-c00000000525943720000000000000CFC
-t1381581682
-s3324
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m
-c0000000052594365000000000000045E
-t1381581669
-s1118
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Capture.bundle
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-568h@2x~iphone.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Landscape@2x~ipad.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Landscape~ipad.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Portrait@2x~ipad.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Portrait~ipad.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default@2x~iphone.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default~iphone.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Info.plist
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/MainViewController.nib
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/PkgInfo
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/config.xml
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon-72.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon-72@2x.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon@2x.png
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList
-c00000000525943A100000000000001E9
-t1381581729
-s489
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
-c00000000525943A1000000000000051A
-t1381581729
-s1306
-
-N/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/libCordova.a
-c00000000525943A1000000000036FCC0
-t1381581729
-s3603648
-
-N/var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth
-t2
-s0
-
-NHelloCordova/HelloCordova-Info.plist
-c00000000525943720000000000000746
-t1381581682
-s1862
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4c1772217b09b841^4fac7b217b09b841^---0#1#0#--18"Check dependencies36"C64C1404-8145-4771-BE10-E12A5EEC1610-
-
-CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403274548.999035
-e403274549.610201
-r1
-xCompileC
-xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
-o    self.viewController.useSplashScreen = YES;
-o                        ^
-o/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
-o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
-o                                              ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.mbe3100357b09b841^40339c357b09b841^-718"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-403274549#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-403274549#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@113"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m0000000000000000^3886"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/usr/local/lib/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/UninstalledProducts/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -include /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.dia -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/AppDelegate.m -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o36"78E12EF6-EA71-47F0-890D-0E8B93878274-
-
-CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403274549.188518
-e403274549.460099
-r1
-xCompileC
-xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m7eac30357b09b841^37c775357b09b841^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m0000000000000000^3928"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/usr/local/lib/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/UninstalledProducts/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -include /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.dia -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.m -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o36"4AAF0C3D-5488-46B6-B771-5AC929579115-
-
-CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403274548.998528
-e403274549.186085
-r1
-xCompileC
-xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m8bffff347b09b841^4d2c30357b09b841^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m0000000000000000^3828"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/usr/local/lib/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/UninstalledProducts/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -include /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.dia -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/main.m -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o36"59E2BEAA-48CB-4EFB-91CC-40C9A68FD2C5-
-
-CCompileXIB /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib
-s403274531.059594
-e403274546.816159
-r1
-xCompileXIB
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib
-o2013-10-12 14:42:23.952 Interface Builder Cocoa Touch Tool[2935:f07] CFPreferences: user home directory at file://localhost/Users/drvender/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compiling /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib088e0f237b09b841^703ed1327b09b841^-240"2013-10-12 14:42:23.952 Interface Builder Cocoa Touch Tool[2935:f07] CFPreferences: user home directory at file://localhost/Users/drvender/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib0000000000000000^1014"CompileXIB HelloCordova/Classes/MainViewController.xib    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/MainViewController.nib /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"CBF7563F-5A68-4E7F-AFB5-EF37EE1EDEF1-
-
-CCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
-s403274531.852142
-e403274531.858490
-r1
-xCopyStringsFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings
-xHelloCordova/Resources/de.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/de.lproj/Localizable.stringsea91da237b09b841^49d8db237b09b841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/de.lproj -- HelloCordova/Resources/de.lproj/Localizable.strings36"65D0070D-C90F-4BD6-83FD-D9F7C26560AD-
-
-CCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
-s403274531.004034
-e403274531.040394
-r1
-xCopyStringsFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings
-xHelloCordova/Resources/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/en.lproj/Localizable.stringsbe4b01237b09b841^5c590a237b09b841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/en.lproj -- HelloCordova/Resources/en.lproj/Localizable.strings36"D34E159C-B917-45C7-9FAD-FE2C52B45F9E-
-
-CCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings
-s403274531.042608
-e403274531.058111
-r1
-xCopyStringsFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings
-xHelloCordova/Resources/es.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/es.lproj/Localizable.strings8d260b237b09b841^c4060f237b09b841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/es.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/es.lproj -- HelloCordova/Resources/es.lproj/Localizable.strings36"479EAE38-C4D3-43DD-A97C-8900723AEB7E-
-
-CCopyStringsFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings
-s403274531.868509
-e403274531.874054
-r1
-xCopyStringsFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings
-xHelloCordova/Resources/se.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/se.lproj/Localizable.stringse4a2de237b09b841^0fd6df237b09b841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/se.lproj/Localizable.strings0000000000000000^659"CopyStringsFile build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/se.lproj -- HelloCordova/Resources/se.lproj/Localizable.strings36"E252C580-FAE3-4C61-83DA-F3514A4C0515-
-
-CCpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle
-s403274530.996154
-e403274531.850682
-r1
-xCpResource
-xHelloCordova/Resources/Capture.bundle
-xbuild/HelloCordova.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/HelloCordova.app/Capture.bundlebf7fff227b09b841^9be2d9237b09b841^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Capture.bundle000000000080d041^685"CpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/Capture.bundle /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"1F9052F0-363E-4577-B945-574B4514ADAE-
-
-CCpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png
-s403274530.936121
-e403274530.968762
-r1
-xCpResource
-xHelloCordova/Resources/icons/icon-72.png
-xbuild/HelloCordova.app/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/HelloCordova.app/icon-72.png15e0ef227b09b841^ec2ef8227b09b841^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon-72.png000000000080d041^688"CpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon-72.png /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"92606FE3-F937-4EF8-B767-79DF43EECE42-
-
-CCpResource HelloCordova/Resources/icons/icon-72@2x.png build/HelloCordova.app/icon-72@2x.png
-s403274532.099767
-e403274532.112202
-r1
-xCpResource
-xHelloCordova/Resources/icons/icon-72@2x.png
-xbuild/HelloCordova.app/icon-72@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/HelloCordova.app/icon-72@2x.pngfcc819247b09b841^80d61c247b09b841^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon-72@2x.png000000000080d041^703"CpResource "HelloCordova/Resources/icons/icon-72@2x.png" "build/HelloCordova.app/icon-72@2x.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"FD45323D-A5E6-47C0-A876-A7B7F7A3410B-
-
-CCpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png
-s403274530.970194
-e403274530.993992
-r1
-xCpResource
-xHelloCordova/Resources/icons/icon.png
-xbuild/HelloCordova.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/HelloCordova.app/icon.png6ccbf8227b09b841^179ffe227b09b841^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon.png000000000080d041^679"CpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon.png /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"86A75C18-1C61-415A-9432-B83A73E3207B-
-
-CCpResource HelloCordova/Resources/icons/icon@2x.png build/HelloCordova.app/icon@2x.png
-s403274530.995520
-e403274531.002375
-r1
-xCpResource
-xHelloCordova/Resources/icons/icon@2x.png
-xbuild/HelloCordova.app/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/HelloCordova.app/icon@2x.pnga225ff227b09b841^20b600237b09b841^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/icon@2x.png000000000080d041^694"CpResource "HelloCordova/Resources/icons/icon@2x.png" "build/HelloCordova.app/icon@2x.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/icons/icon@2x.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"1E07E01E-AD81-49B6-AC32-4B10FA75E99A-
-
-CCpResource HelloCordova/Resources/splash/Default-568h@2x~iphone.png build/HelloCordova.app/Default-568h@2x~iphone.png
-s403274532.085524
-e403274532.098203
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default-568h@2x~iphone.png
-xbuild/HelloCordova.app/Default-568h@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/HelloCordova.app/Default-568h@2x~iphone.pngfe2c16247b09b841^9e2419247b09b841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-568h@2x~iphone.png000000000080d041^741"CpResource "HelloCordova/Resources/splash/Default-568h@2x~iphone.png" "build/HelloCordova.app/Default-568h@2x~iphone.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"B4FA7E9A-46E6-4928-A4F1-A27387D1158D-
-
-CCpResource HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png build/HelloCordova.app/Default-Landscape@2x~ipad.png
-s403274531.875549
-e403274531.914085
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
-xbuild/HelloCordova.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/HelloCordova.app/Default-Landscape@2x~ipad.png5760e0237b09b841^eb02ea237b09b841^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Landscape@2x~ipad.png000000000080d041^750"CpResource "HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" "build/HelloCordova.app/Default-Landscape@2x~ipad.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"2578034A-ED23-42C7-8688-0F31E4783C84-
-
-CCpResource HelloCordova/Resources/splash/Default-Landscape~ipad.png build/HelloCordova.app/Default-Landscape~ipad.png
-s403274531.915647
-e403274531.962013
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default-Landscape~ipad.png
-xbuild/HelloCordova.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/HelloCordova.app/Default-Landscape~ipad.pnga9a4ea237b09b841^2c49f6237b09b841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Landscape~ipad.png000000000080d041^741"CpResource "HelloCordova/Resources/splash/Default-Landscape~ipad.png" "build/HelloCordova.app/Default-Landscape~ipad.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"92744D84-30CF-445D-8416-6E168CE1EBA2-
-
-CCpResource HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png build/HelloCordova.app/Default-Portrait@2x~ipad.png
-s403274531.963550
-e403274532.022248
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
-xbuild/HelloCordova.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/HelloCordova.app/Default-Portrait@2x~ipad.png29e8f6237b09b841^04cb05247b09b841^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Portrait@2x~ipad.png000000000080d041^747"CpResource "HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" "build/HelloCordova.app/Default-Portrait@2x~ipad.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"2C54752C-6905-407A-A6A5-3939B5D8FDC2-
-
-CCpResource HelloCordova/Resources/splash/Default-Portrait~ipad.png build/HelloCordova.app/Default-Portrait~ipad.png
-s403274532.023691
-e403274532.028796
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default-Portrait~ipad.png
-xbuild/HelloCordova.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/HelloCordova.app/Default-Portrait~ipad.pngdf5206247b09b841^437507247b09b841^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default-Portrait~ipad.png000000000080d041^738"CpResource "HelloCordova/Resources/splash/Default-Portrait~ipad.png" "build/HelloCordova.app/Default-Portrait~ipad.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"0A43E8F2-CDF7-4DB5-B189-B321C663BB39-
-
-CCpResource HelloCordova/Resources/splash/Default@2x~iphone.png build/HelloCordova.app/Default@2x~iphone.png
-s403274532.030177
-e403274532.034836
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default@2x~iphone.png
-xbuild/HelloCordova.app/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/HelloCordova.app/Default@2x~iphone.pngcbf407247b09b841^7e0109247b09b841^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default@2x~iphone.png000000000080d041^726"CpResource "HelloCordova/Resources/splash/Default@2x~iphone.png" "build/HelloCordova.app/Default@2x~iphone.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"679A24AB-9F70-4626-9C32-B1EEF8B747EF-
-
-CCpResource HelloCordova/Resources/splash/Default~iphone.png build/HelloCordova.app/Default~iphone.png
-s403274532.036221
-e403274532.067351
-r1
-xCpResource
-xHelloCordova/Resources/splash/Default~iphone.png
-xbuild/HelloCordova.app/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/HelloCordova.app/Default~iphone.png5e8009247b09b841^892412247b09b841^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Default~iphone.png000000000080d041^717"CpResource "HelloCordova/Resources/splash/Default~iphone.png" "build/HelloCordova.app/Default~iphone.png"    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"4EBF003E-E3A9-4C70-8D66-8B9907189E3A-
-
-CCpResource HelloCordova/config.xml build/HelloCordova.app/config.xml
-s403274530.934360
-e403274530.994347
-r1
-xCpResource
-xHelloCordova/config.xml
-xbuild/HelloCordova.app/config.xml
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/HelloCordova.app/config.xmla46ff6227b09b841^228dfe227b09b841^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/config.xml000000000080d041^653"CpResource HelloCordova/config.xml build/HelloCordova.app/config.xml    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/config.xml /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"2CD593C7-2E70-4ECD-B8C9-B0705DA81474-
-
-CGenerateDSYMFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova
-s403274552.421640
-e403274554.255727
-r1
-xGenerateDSYMFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generate /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYMca366c387b09b841^b090413a7b09b841^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM000000000080d041^673"GenerateDSYMFile build/HelloCordova.app.dSYM build/HelloCordova.app/HelloCordova    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app.dSYM36"F52942F7-493F-4305-B63E-C291656DEDB4-
-
-CLd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova normal i386
-s403274549.619397
-e403274552.414482
-r1
-xLd
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova36e99e357b09b841^86386a387b09b841^---0#0#0#--1921"Ld build/HelloCordova.app/HelloCordova normal i386    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -F/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -filelist /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/HelloCordova36"5B0EB049-7074-4A9D-96BF-BB68889262A6-
-
-CPhaseScriptExecution "Copy www directory" /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
-s403274529.521154
-e403274530.913247
-r1
-xPhaseScriptExecution
-xCopy www directory
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
-o
-oreal	0m1.295s
-ouser	0m0.336s
-osys	0m0.351s
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'e5b98a217b09b841^c0cee9227b09b841^-42"real	0m1.295suser	0m0.336ssys	0m0.351s3(21%IDEActivityLogMessage2@14"real	0m1.295s-403274530#1#14#-0#-----2@14"user	0m0.336s-403274530#15#14#-0#-----2@13"sys	0m0.351s-403274530#29#13#-0#-----0#0#0#--21710"PhaseScriptExecution "Copy www directory" build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER drvender    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv BUILD_ROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv CACHE_ROOT /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH HelloCordova.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH HelloCordova.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/HelloCordova.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME HelloCordova.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH HelloCordova.app/Executables    setenv EXECUTABLE_FOLDER_PATH HelloCordova.app    setenv EXECUTABLE_NAME HelloCordova    setenv EXECUTABLE_PATH HelloCordova.app/HelloCordova    setenv FILE_LIST /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH HelloCordova.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME HelloCordova.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER HelloCordova/HelloCordova-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include\" \"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/usr/local/lib/include\" \"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/UninstalledProducts/include\" \"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE HelloCordova/HelloCordova-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH HelloCordova.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH HelloCordova.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/HelloCordova.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER drvender    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/HelloCordova.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH HelloCordova.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH HelloCordova.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal    setenv OBJROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH HelloCordova.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/PkgInfo    setenv PKGINFO_PATH HelloCordova.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH HelloCordova.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH HelloCordova.app/PrivateHeaders    setenv PRODUCT_NAME HelloCordova    setenv PRODUCT_SETTINGS_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/HelloCordova-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT HelloCordova    setenv PROJECT_DERIVED_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/DerivedSources    setenv PROJECT_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PROJECT_FILE_PATH /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova.xcodeproj    setenv PROJECT_NAME HelloCordova    setenv PROJECT_TEMP_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build    setenv PROJECT_TEMP_ROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH HelloCordova.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH HelloCordova.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH HelloCordova.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH HelloCordova.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv SRCROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME HelloCordova    setenv TARGET_BUILD_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv TARGET_NAME HelloCordova    setenv TARGET_TEMP_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_FILES_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_FILE_DIR /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_ROOT /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HelloCordova.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER drvender    setenv USER_APPS_DIR /Users/drvender/Applications    setenv USER_LIBRARY_DIR /Users/drvender/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH HelloCordova.app/version.plist    setenv VERSION_INFO_BUILDER drvender    setenv VERSION_INFO_FILE HelloCordova_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HelloCordova  PROJECT:HelloCordova-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME HelloCordova.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh36"106632D9-040F-4165-9943-E08C6F946740-
-
-CProcessInfoPlistFile /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist
-s403274529.505693
-e403274529.512317
-r1
-xProcessInfoPlistFile
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Info.plist
-xHelloCordova/HelloCordova-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process HelloCordova/HelloCordova-Info.plist23bc81217b09b841^a62883217b09b841^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/HelloCordova-Info.plist0000000000000000^725"ProcessInfoPlistFile build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility HelloCordova/HelloCordova-Info.plist -genpkginfo /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app/Info.plist36"0C092D2A-9C5D-4980-A0D2-3E5CD6D6BECE-
-
-CProcessPCH /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403274546.836932
-e403274548.991362
-r1
-xProcessPCH
-x/var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth
-xHelloCordova/HelloCordova-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile HelloCordova/HelloCordova-Prefix.pchd0b6d6327b09b841^83fbfd347b09b841^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/HelloCordova-Prefix.pch0000000000000000^3814"ProcessPCH /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/usr/local/lib/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/UninstalledProducts/include -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build --serialize-diagnostics /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.dia -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/HelloCordova/HelloCordova-Prefix.pch -o /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/_3/g6yvjtr53bj1mv5ykfwz11ww0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-hfmcxjewreeunmhanugybwavfgpr/HelloCordova-Prefix.pch.d36"776D33E1-B85F-4E27-9FE7-76753DF863ED-
-
-CTouch /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app
-s403274554.264259
-e403274554.388581
-r1
-xTouch
-x/Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.appf8de433a7b09b841^397b633a7b09b841^---0#0#0#--436"Touch build/HelloCordova.app    cd /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/drvender/Programing/Zuller/ZullerPhoneGap/platforms/ios/build/HelloCordova.app36"A9020DB1-992E-492B-A924-2555DFF64F03-
-
